@@ -57,7 +57,7 @@ def main(comb_label, hz_para_list, alpha_focal, gamma_focal, lambda_reg):
 
     # ----------------------------------------------------------------------------
     # Set random seed
-    random_seed = 114514
+    random_seed = 42
     # Set the random seed for numpy
     np.random.seed(random_seed)
 
